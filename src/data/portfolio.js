@@ -65,7 +65,7 @@ Every project I take on is a chance to learn something new, push my creativity, 
       description:
         "A simple modern, responsive portfolio built with React and Vite. Features smooth scrolling, dark theme, and a clean layout.",
       tags: ["React", "Vite", "CSS"],
-      liveUrl: "#",
+      liveUrl: "https://tyler-dev-portfolio.vercel.app/",
     },
     {
       title: "Aro Cafe",
