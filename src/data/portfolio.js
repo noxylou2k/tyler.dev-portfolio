@@ -52,6 +52,7 @@ Every project I take on is a chance to learn something new, push my creativity, 
       { name: "React JS", icon: "react/react-original.svg" },
       { name: "MongoDB", icon: "mongodb/mongodb-original.svg" },
       { name: "Express JS", icon: "express/express-original.svg", monochrome: true },
+      { name: "Node JS", icon: "nodejs/nodejs-original.svg" },
     ],
     tools: [
       { name: "Photoshop", icon: "photoshop/photoshop-original.svg" },
