@@ -74,5 +74,11 @@ Every project I take on is a chance to learn something new, push my creativity, 
       tags: ["React","CSS"],
       liveUrl: "https://aro-cafe-gilt.vercel.app/",
     },
+    {
+      title: "Geometric Sequence Calculator",
+      description: "A geometric sequence calculator built with functional programming and mathematical formulas to solve geometric sequences.",
+      tags: ["React","CSS"],
+      liveUrl: "https://geometric-sequence.vercel.app/",
+    }
   ],
 };
