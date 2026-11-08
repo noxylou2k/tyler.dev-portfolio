@@ -1,4 +1,5 @@
 import photo from "../assets/pic.jpg";
+import cursorIcon from "../assets/cursor.svg";
 
 export const navLinks = [
   { id: "home", label: "Home" },
@@ -45,18 +46,25 @@ Every project I take on is a chance to learn something new, push my creativity, 
   ],
 
   skills: {
-    techStack: [
+    frontend: [
       { name: "HTML", icon: "html5/html5-original.svg" },
       { name: "CSS", icon: "css3/css3-original.svg" },
       { name: "JavaScript", icon: "javascript/javascript-original.svg" },
-      { name: "React JS", icon: "react/react-original.svg" },
-      { name: "MongoDB", icon: "mongodb/mongodb-original.svg" },
-      { name: "Express JS", icon: "express/express-original.svg", monochrome: true },
+    ],
+    backend: [
       { name: "Node JS", icon: "nodejs/nodejs-original.svg" },
+      { name: "Express JS", icon: "express/express-original.svg", monochrome: true },
+      { name: "MongoDB", icon: "mongodb/mongodb-original.svg" },
+    ],
+    framework: [
+      { name: "React JS", icon: "react/react-original.svg" },
+      { name: "Next JS", icon: "nextjs/nextjs-original.svg", monochrome: true },
     ],
     tools: [
       { name: "Photoshop", icon: "photoshop/photoshop-original.svg" },
       { name: "Figma", icon: "figma/figma-original.svg" },
+      { name: "Visual Studio Code", icon: "vscode/vscode-original.svg" },
+      { name: "Cursor", icon: cursorIcon, monochrome: true },
     ],
   },
 
@@ -79,6 +87,13 @@ Every project I take on is a chance to learn something new, push my creativity, 
       description: "A geometric sequence calculator built with functional programming and mathematical formulas to solve geometric sequences.",
       tags: ["React","CSS"],
       liveUrl: "https://geometric-sequence.vercel.app/",
-    }
+    },
+    {
+      title: "Skybooth",
+      description:
+        "A photo booth that runs in the browser. Stand under the clouds, take a set of photos, and leave with a strip. The pictures stay on your device.",
+      tags: ["Next JS", "CSS"],
+      liveUrl: "https://skybooth-eosin.vercel.app/",
+    },
   ],
 };

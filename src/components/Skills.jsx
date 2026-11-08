@@ -4,7 +4,9 @@ import SectionHeading from "./SectionHeading";
 const ICON_BASE = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/";
 
 const groups = [
-  { title: "Tech Stack", items: portfolio.skills.techStack },
+  { title: "Frontend", items: portfolio.skills.frontend },
+  { title: "Backend", items: portfolio.skills.backend },
+  { title: "Framework", items: portfolio.skills.framework },
   { title: "Tools", items: portfolio.skills.tools },
 ];
 
@@ -25,7 +27,7 @@ export default function Skills() {
               {group.items.map((skill) => (
                 <li key={skill.name} className="skills__item">
                   <img
-                    src={ICON_BASE + skill.icon}
+                    src={/^(https?:|\/|data:)/.test(skill.icon) ? skill.icon : ICON_BASE + skill.icon}
                     alt=""
                     width="22"
                     height="22"
