@@ -65,6 +65,8 @@ Every project I take on is a chance to learn something new, push my creativity, 
       { name: "Figma", icon: "figma/figma-original.svg" },
       { name: "Visual Studio Code", icon: "vscode/vscode-original.svg" },
       { name: "Cursor", icon: cursorIcon, monochrome: true },
+      { name: "Git", icon: "git/git-original.svg" },
+      { name: "GitHub", icon: "github/github-original.svg", monochrome: true },
     ],
   },
 
